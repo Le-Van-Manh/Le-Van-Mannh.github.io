@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Le Van Manh </title>
+<style type="text/css">
+.ProductDetails {display: none;}
+.Product img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #aaa;
+}
+.ProductName {font-weight: bold;}
+.ProductPrice {font-style: italic;}
+.ProductPrice:before {content: " - ";}
+.Product {
+    text-align: center;
+    width: 150px;
+    margin: 0px 20px;
+    float: left;
+    cursor: pointer;
+}
+.Product:hover .ProductDetails {display: block;}
+</style>
+</head>
+<body>
+<div>
+    <div class="Product"> 
+        
+        <img src="hinh1 html.png" />
+        <div class="ProductDetails">
+            <span class="ProductName">Le Van Manh</span>
+            <span class="ProductID">23070302</span>
+        </div>
+    </div>    
+    <div class ="Product">
+        <img src="hinh2html.png" />
+        <div class="ProductDetails">
+            <span class="ProductName">Picture copy</span>
+            <span class="ProductID">7</span>
+        </div>
+    </div>   
+    <div class="Product">
+        <img src="hinh3html.png" />
+        <div class="ProductDetails"> 
+            <span class="ProductName">Picture copy</span>     
+            <span class="ProductID">0</span> 
+        </div>
+    </div>
+</div>
+</body>
+</html>            
